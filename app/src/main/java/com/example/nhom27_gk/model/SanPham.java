@@ -51,7 +51,7 @@ public class SanPham {
         this.donGia = donGia;
     }
 
-    public boolean isTrangThai() {
+    public boolean getTrangThai() {
         return trangThai;
     }
 

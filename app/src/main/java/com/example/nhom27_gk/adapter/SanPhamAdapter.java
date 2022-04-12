@@ -1,4 +1,4 @@
-package com.example.nhom27_gk.activities;
+package com.example.nhom27_gk.adapter;
 
 import android.app.Activity;
 import android.content.Context;
