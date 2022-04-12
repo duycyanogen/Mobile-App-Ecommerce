@@ -88,7 +88,7 @@ public class SanPhamAdapter extends BaseAdapter {
         }
         SanPhamViewHolder.tvMaSanPham.setText(listSanPham.get(i).getMaSP());
         SanPhamViewHolder.tvTenSanPham.setText(listSanPham.get(i).getTenSP());
-        SanPhamViewHolder.tvDonGia.setText(listSanPham.get(i).getDonGia());
+        SanPhamViewHolder.tvDonGia.setText(listSanPham.get(i).getDonGia().toString());
         SanPhamViewHolder.tvXuatXu.setText(listSanPham.get(i).getXuatXu());
 
         return view;
